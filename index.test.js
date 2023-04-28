@@ -9,4 +9,8 @@ assert.strictEqual(tokenize(inputStr)
   .filter(c => !isInvalidKhmerGrapheme(c)).join(""),
   inputStrCorrect
 )
-
+assert.deepEqual(tokenize("មានាាបើក់់ាតឺឺ"), [
+  'មា', 'នា', 'ា',
+  'បើ', 'ក់', '់',
+  'ា', 'តឺ', 'ឺ'
+])

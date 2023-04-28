@@ -20,7 +20,7 @@ function* _tokenizeAsIterator(str) {
         if (t) cur += c;
         else cur = c;
       } else {
-        if (VOWEL_REGEX.test(c) && cur && CONSONANT_REGEX.test(cur[0])) {
+        if (VOWEL_REGEX.test(c) && cur && CONSONANT_REGEX.test(cur[0]) && cur[cur.length - 1] !== c) {
           cur += c;
         } else {
           if (cur) yield cur;
