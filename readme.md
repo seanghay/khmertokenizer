@@ -14,17 +14,15 @@ tokenize("ភាសាខ្មែរ១២ 123 ABC")
 ```js
 import { tokenizeAsIterator } from 'khmertokenizer';
 
-for (const c of tokenize("ភាសាខ្មែរ១២ 123 ABC")) {
+for (const c of tokenizeAsIterator("ភាសាខ្មែរ១២ 123 ABC")) {
   console.log(c);
 }
-
-// => ["ភា","សា","ខ្មែ","រ","១","២"," ","1","2","3"," ","A","B","C"]
 ```
 
 ### Grapheme Validation
 
 ```js
-import { tokenize, tokenizeAsIterator } from 'khmertokenizer';
+import { tokenize, isInvalidKhmerGrapheme } from 'khmertokenizer';
 
 const input = "ភាសាខ្មែរ១២ 123 ABC ២ ៗាា"
 const output = tokenize(input)
