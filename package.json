@@ -1,0 +1,13 @@
+{
+  "name": "khmertokenizer",
+  "description": "Basic Khmer Tokenizer",
+  "main": "./index.js",
+  "repository": "seanghay/khmertokenizer",
+  "license": "MIT",
+  "author": {
+    "email": "seanghay.dev@gmail.com",
+    "name": "Seanghay Yath",
+    "url": "https://github.com/seanghay"
+  },
+  "files": ["index.js"]
+}
