@@ -1,6 +1,6 @@
 {
   "name": "khmertokenizer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Basic Khmer Tokenizer",
   "main": "./index.js",
   "repository": "seanghay/khmertokenizer",
@@ -10,7 +10,9 @@
     "name": "Seanghay Yath",
     "url": "https://github.com/seanghay"
   },
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node index.test.js"
   }
