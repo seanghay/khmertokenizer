@@ -1,6 +1,6 @@
 ## Khmer Tokenizer
 
-A fast Khmer text tokenizer that ensures the all characters are included in the process.
+A fast Khmer text tokenizer that ensures all characters are included in the process.
 
 [Web demo](https://khmertokenizer.netlify.app/)
 
