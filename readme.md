@@ -2,6 +2,8 @@
 
 A fast Khmer text tokenizer that ensures the all characters are included in the process.
 
+[Web demo](https://khmertokenizer.netlify.app/)
+
 ```js
 import { tokenize } from 'khmertokenizer';
 
