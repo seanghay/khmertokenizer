@@ -15,5 +15,11 @@
   ],
   "scripts": {
     "test": "node index.test.js"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  },
+  "dependencies": {
+    "vite-plugin-commonjs": "^0.6.2"
   }
 }

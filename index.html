@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+		/>
+		<title>Khmer Tokenizer</title>
+		<style>
+			.token {
+				background-color: slateblue;
+				color: white;
+				display: inline-block;
+				letter-spacing: 0;
+				line-height: 1em;
+				margin: 0.1em;
+				border: 1px solid rgba(0, 0, 0, 0.1);
+				padding: 0.3em 0.4em;
+				font-weight: 600;
+				font-size: 14px;
+				border-radius: 0.25em;
+			}
+			.token.invalid {
+				background-color: orange;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="container">
+			<hgroup>
+				<h1>Khmer Tokenizer</h1>
+				<p>
+					A fast Khmer text tokenizer that ensures the all characters are
+					included in the process.
+					<a href="https://github.com/seanghay/khmertokenizer"
+						><small>View on GitHub</small></a
+					>
+				</p>
+				<code>npm install khmertokenizer</code>
+			</hgroup>
+			<hgroup>
+				<textarea id="text" placeholder="Type something"></textarea>
+				<div id="tokens"></div>
+			</hgroup>
+		</main>
+		<script src="./index.demo.js" type="module"></script>
+	</body>
+</html>
